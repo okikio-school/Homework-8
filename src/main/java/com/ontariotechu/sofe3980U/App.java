@@ -1,7 +1,7 @@
 package com.ontariotechu.sofe3980U;
 import java.util.HashMap; // import the HashMap class
 
-class App {
+public class App {
   public static int charCount(String input, char character) {
     // Store a count of all characters in the HashMap
     // use the keys to represent the character and the value to

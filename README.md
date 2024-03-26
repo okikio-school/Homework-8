@@ -2,5 +2,5 @@
 Homework 8, Software Quality
 
 ```sh
-mvn clean package compile assembly:single
+mvn clean package compile assembly:single exec:java
 ```

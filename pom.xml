@@ -103,6 +103,16 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        
+        <!-- Configuration for exec-maven-plugin -->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>exec-maven-plugin</artifactId>
+          <version>3.2.0</version> <!-- Use the appropriate version -->
+          <configuration>
+            <mainClass>com.ontariotechu.sofe3980U.App</mainClass>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
